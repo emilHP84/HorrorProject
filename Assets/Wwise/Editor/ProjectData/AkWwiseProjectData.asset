@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b00ee97416f44a4284620c087f04adba
     GuidInternal: 
-    m_lastTime: -8584399583114084938
+    m_lastTime: -8584399480227966925
     List:
     - name: All
       guid: 3c4212c597833345b68b45a0f1f082b6
@@ -659,7 +659,7 @@ MonoBehaviour:
     ParentPath: Events\POUPEE\PoupeeEtat
     guid: c0299d7d113624409f5d677c2e4ae523
     GuidInternal: 
-    m_lastTime: -8584399501447596069
+    m_lastTime: -8584399403343454854
     List:
     - name: OnPoupeeActivateEventHandler
       guid: 2198ce8db260cc4792d6bf8367d6da14
@@ -1166,7 +1166,7 @@ MonoBehaviour:
         guid: 495175a5061ad64daf0c4407794aa848
       Path: Triggers\Default Work Unit\GAME_OVER
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 060000000700000008000000090000000b00000021000000230000006d0000006f000000700000007100000072000000a0000000b1000000df000000e2000000e4000000280100002901000083940000104b0a0012e11400
+  ExpandedWaapiItemIds: 06000000150000001600000021000000230000006d0000006f000000700000007100000072000000a0000000b1000000df000000e2000000e4000000280100002901000083940000104b0a0012e11400
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
