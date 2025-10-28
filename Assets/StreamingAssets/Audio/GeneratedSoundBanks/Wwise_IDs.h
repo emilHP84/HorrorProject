@@ -20,7 +20,7 @@ namespace AK
         static const AkUniqueID ONMUSICMENUEVENTHANDLER = 2667605526U;
         static const AkUniqueID ONMUSICONEMINLEFTEVENTHANDLER = 4278809340U;
         static const AkUniqueID ONMUSICVICTORYEVENTHANDLER = 3218507479U;
-        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID ONPLAYERFOOTSTEPWALKEVENTHANDLER = 3778650096U;
     } // namespace EVENTS
 
     namespace STATES
@@ -43,25 +43,9 @@ namespace AK
 
     } // namespace STATES
 
-    namespace SWITCHES
-    {
-        namespace FOOTSTEP
-        {
-            static const AkUniqueID GROUP = 1866025847U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID RUN = 712161704U;
-                static const AkUniqueID WALK = 2108779966U;
-            } // namespace SWITCH
-        } // namespace FOOTSTEP
-
-    } // namespace SWITCHES
-
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID BPM = 798609784U;
-        static const AkUniqueID MOVESPEED = 1086842483U;
     } // namespace GAME_PARAMETERS
 
     namespace TRIGGERS
