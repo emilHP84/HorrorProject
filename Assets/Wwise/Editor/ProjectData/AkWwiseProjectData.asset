@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b00ee97416f44a4284620c087f04adba
     GuidInternal: 
-    m_lastTime: -8584400257251516252
+    m_lastTime: -8584399609650773520
     List:
     - name: All
       guid: 3c4212c597833345b68b45a0f1f082b6
@@ -111,42 +111,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51bcbc0a141bba44acb597a9640c4ce6
     GuidInternal: 
-    m_lastTime: -8584400257251653604
-    List:
-    - name: Play_Ft_1
-      guid: 413b544c8cbb7c4f9f36ae698385bfaa
-      id: 2391154328
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 51bcbc0a141bba44acb597a9640c4ce6
-      - ElementName: Play_Ft_1
-        ObjectType: 3
-        guid: 413b544c8cbb7c4f9f36ae698385bfaa
-      Path: Events\Default Work Unit\Play_Ft_1
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Perso_SFX_Amb_Fondair_LP
-      guid: 69f923ad60643b4fa3ac3b328b430710
-      id: 2900359775
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 51bcbc0a141bba44acb597a9640c4ce6
-      - ElementName: Play_Perso_SFX_Amb_Fondair_LP
-        ObjectType: 3
-        guid: 69f923ad60643b4fa3ac3b328b430710
-      Path: Events\Default Work Unit\Play_Perso_SFX_Amb_Fondair_LP
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+    m_lastTime: -8584399614593928374
+    List: []
   - PhysicalPath: Events\MUSIC\New Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -161,31 +127,11 @@ MonoBehaviour:
     ParentPath: Events\MUSIC\New Work Unit
     guid: c382f1c7fe562245b4223ae98000a269
     GuidInternal: 
-    m_lastTime: -8584400241303184404
+    m_lastTime: -8584399609811104160
     List:
-    - name: MUSIC_1MIN_LEFT
-      guid: eac84979d3da4c498478afea27ebcdd4
-      id: 2222788550
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: MUSIC
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: New Work Unit
-        ObjectType: 12
-        guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_1MIN_LEFT
-        ObjectType: 3
-        guid: eac84979d3da4c498478afea27ebcdd4
-      Path: Events\MUSIC\New Work Unit\MUSIC_1MIN_LEFT
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: MUSIC_ATTACK
+    - name: OnMusicAttackEventHandler
       guid: ab8a2727f9448f428a65d350fe3804d9
-      id: 3306682037
+      id: 3863509023
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -196,16 +142,16 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_ATTACK
+      - ElementName: OnMusicAttackEventHandler
         ObjectType: 3
         guid: ab8a2727f9448f428a65d350fe3804d9
-      Path: Events\MUSIC\New Work Unit\MUSIC_ATTACK
+      Path: Events\MUSIC\New Work Unit\OnMusicAttackEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MUSIC_CHILL
+    - name: OnMusicChillEventHandler
       guid: 294bada0e4b34b40a0878dd2300845ec
-      id: 3060268357
+      id: 1336557311
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -216,16 +162,16 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_CHILL
+      - ElementName: OnMusicChillEventHandler
         ObjectType: 3
         guid: 294bada0e4b34b40a0878dd2300845ec
-      Path: Events\MUSIC\New Work Unit\MUSIC_CHILL
+      Path: Events\MUSIC\New Work Unit\OnMusicChillEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MUSIC_GAME_OVER
+    - name: OnMusicGameOverEventHandler
       guid: 8022e18533bfec43a58037cf8363e61e
-      id: 1401360260
+      id: 3600875727
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -236,16 +182,16 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_GAME_OVER
+      - ElementName: OnMusicGameOverEventHandler
         ObjectType: 3
         guid: 8022e18533bfec43a58037cf8363e61e
-      Path: Events\MUSIC\New Work Unit\MUSIC_GAME_OVER
+      Path: Events\MUSIC\New Work Unit\OnMusicGameOverEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MUSIC_LAUNCH
+    - name: OnMusicLaunchEventHandler
       guid: 8cfc1d2912ea774dacd3b3de5cc0a4ce
-      id: 4263986920
+      id: 1763420906
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -256,16 +202,16 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_LAUNCH
+      - ElementName: OnMusicLaunchEventHandler
         ObjectType: 3
         guid: 8cfc1d2912ea774dacd3b3de5cc0a4ce
-      Path: Events\MUSIC\New Work Unit\MUSIC_LAUNCH
+      Path: Events\MUSIC\New Work Unit\OnMusicLaunchEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MUSIC_MENU
+    - name: OnMusicMenuEventHandler
       guid: 5238b6329700404c985637c3d057cbc8
-      id: 1598298728
+      id: 2667605526
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -276,16 +222,16 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_MENU
+      - ElementName: OnMusicMenuEventHandler
         ObjectType: 3
         guid: 5238b6329700404c985637c3d057cbc8
-      Path: Events\MUSIC\New Work Unit\MUSIC_MENU
+      Path: Events\MUSIC\New Work Unit\OnMusicMenuEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: MUSIC_VICTORY
-      guid: 9db84546d80b33428548ac6caac70385
-      id: 2637400697
+    - name: OnMusicOneMinLeftEventHandler
+      guid: eac84979d3da4c498478afea27ebcdd4
+      id: 4278809340
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -296,13 +242,49 @@ MonoBehaviour:
       - ElementName: New Work Unit
         ObjectType: 12
         guid: c382f1c7fe562245b4223ae98000a269
-      - ElementName: MUSIC_VICTORY
+      - ElementName: OnMusicOneMinLeftEventHandler
         ObjectType: 3
-        guid: 9db84546d80b33428548ac6caac70385
-      Path: Events\MUSIC\New Work Unit\MUSIC_VICTORY
+        guid: eac84979d3da4c498478afea27ebcdd4
+      Path: Events\MUSIC\New Work Unit\OnMusicOneMinLeftEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: OnMusicVictoryEventHandler
+      guid: 9db84546d80b33428548ac6caac70385
+      id: 3218507479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MUSIC
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: New Work Unit
+        ObjectType: 12
+        guid: c382f1c7fe562245b4223ae98000a269
+      - ElementName: OnMusicVictoryEventHandler
+        ObjectType: 3
+        guid: 9db84546d80b33428548ac6caac70385
+      Path: Events\MUSIC\New Work Unit\OnMusicVictoryEventHandler
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\PLAYER\PLAYER.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLAYER
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLAYER
+      ObjectType: 12
+      guid: a8e8dd3f8ccc9243916b666b3a219307
+    ParentPath: Events\PLAYER\PLAYER
+    guid: a8e8dd3f8ccc9243916b666b3a219307
+    GuidInternal: 
+    m_lastTime: -8584399604164318120
+    List:
     - name: PLAYER_FOOTSTEP
       guid: 094737637224f44cb82107e366bc4273
       id: 2453392179
@@ -310,16 +292,16 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: MUSIC
+      - ElementName: PLAYER
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: New Work Unit
+      - ElementName: PLAYER
         ObjectType: 12
-        guid: c382f1c7fe562245b4223ae98000a269
+        guid: a8e8dd3f8ccc9243916b666b3a219307
       - ElementName: PLAYER_FOOTSTEP
         ObjectType: 3
         guid: 094737637224f44cb82107e366bc4273
-      Path: Events\MUSIC\New Work Unit\PLAYER_FOOTSTEP
+      Path: Events\PLAYER\PLAYER\PLAYER_FOOTSTEP
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -644,7 +626,7 @@ MonoBehaviour:
         guid: 495175a5061ad64daf0c4407794aa848
       Path: Triggers\Default Work Unit\GAME_OVER
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000008000000090000000a0000000b00000021000000230000006d0000006f000000700000007100000072000000b10000002801000029010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

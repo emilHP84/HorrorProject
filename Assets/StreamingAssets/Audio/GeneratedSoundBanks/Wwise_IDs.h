@@ -13,13 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID MUSIC_1MIN_LEFT = 2222788550U;
-        static const AkUniqueID MUSIC_ATTACK = 3306682037U;
-        static const AkUniqueID MUSIC_CHILL = 3060268357U;
-        static const AkUniqueID MUSIC_GAME_OVER = 1401360260U;
-        static const AkUniqueID MUSIC_LAUNCH = 4263986920U;
-        static const AkUniqueID MUSIC_MENU = 1598298728U;
-        static const AkUniqueID MUSIC_VICTORY = 2637400697U;
+        static const AkUniqueID ONMUSICATTACKEVENTHANDLER = 3863509023U;
+        static const AkUniqueID ONMUSICCHILLEVENTHANDLER = 1336557311U;
+        static const AkUniqueID ONMUSICGAMEOVEREVENTHANDLER = 3600875727U;
+        static const AkUniqueID ONMUSICLAUNCHEVENTHANDLER = 1763420906U;
+        static const AkUniqueID ONMUSICMENUEVENTHANDLER = 2667605526U;
+        static const AkUniqueID ONMUSICONEMINLEFTEVENTHANDLER = 4278809340U;
+        static const AkUniqueID ONMUSICVICTORYEVENTHANDLER = 3218507479U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
     } // namespace EVENTS
 
