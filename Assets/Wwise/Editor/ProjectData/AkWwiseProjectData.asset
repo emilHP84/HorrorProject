@@ -114,11 +114,11 @@ MonoBehaviour:
     ParentPath: Events\AMBIANCE\AMBIANCE
     guid: 188493766fed4345a00b7cb43ee03418
     GuidInternal: 
-    m_lastTime: -8584399595392040748
+    m_lastTime: -8584398534332223657
     List:
-    - name: OnAmbianceEventHandler
-      guid: 862941f671a78040ad2bd185d8bbd313
-      id: 198661522
+    - name: OnAmbianceSalleEntrepotEventHandler
+      guid: 6889fd2fbd836d48891baac270f3bb9d
+      id: 176453890
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -129,10 +129,50 @@ MonoBehaviour:
       - ElementName: AMBIANCE
         ObjectType: 12
         guid: 188493766fed4345a00b7cb43ee03418
-      - ElementName: OnAmbianceEventHandler
+      - ElementName: OnAmbianceSalleEntrepotEventHandler
+        ObjectType: 3
+        guid: 6889fd2fbd836d48891baac270f3bb9d
+      Path: Events\AMBIANCE\AMBIANCE\OnAmbianceSalleEntrepotEventHandler
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: OnAmbianceSalleGardienEventHandler
+      guid: 884c0c1f2ccc5541a7c13c13e4ea927f
+      id: 948802671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMBIANCE
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMBIANCE
+        ObjectType: 12
+        guid: 188493766fed4345a00b7cb43ee03418
+      - ElementName: OnAmbianceSalleGardienEventHandler
+        ObjectType: 3
+        guid: 884c0c1f2ccc5541a7c13c13e4ea927f
+      Path: Events\AMBIANCE\AMBIANCE\OnAmbianceSalleGardienEventHandler
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: OnAmbianceSallePrincipaleEventHandler
+      guid: 862941f671a78040ad2bd185d8bbd313
+      id: 2964699108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMBIANCE
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMBIANCE
+        ObjectType: 12
+        guid: 188493766fed4345a00b7cb43ee03418
+      - ElementName: OnAmbianceSallePrincipaleEventHandler
         ObjectType: 3
         guid: 862941f671a78040ad2bd185d8bbd313
-      Path: Events\AMBIANCE\AMBIANCE\OnAmbianceEventHandler
+      Path: Events\AMBIANCE\AMBIANCE\OnAmbianceSallePrincipaleEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -150,11 +190,11 @@ MonoBehaviour:
     ParentPath: Events\CAT\Cat ETAT
     guid: 07804f35b7b5cb4fab2489dbd8f93d6b
     GuidInternal: 
-    m_lastTime: -8584398768178433236
+    m_lastTime: -8584398533263787687
     List:
-    - name: OnCatIAttackEventHandler
+    - name: OnCatEtatEventHandler
       guid: db9f1b67824ddf4594a59a45f9355148
-      id: 3478201579
+      id: 872696306
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -165,30 +205,10 @@ MonoBehaviour:
       - ElementName: Cat ETAT
         ObjectType: 12
         guid: 07804f35b7b5cb4fab2489dbd8f93d6b
-      - ElementName: OnCatIAttackEventHandler
+      - ElementName: OnCatEtatEventHandler
         ObjectType: 3
         guid: db9f1b67824ddf4594a59a45f9355148
-      Path: Events\CAT\Cat ETAT\OnCatIAttackEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnCatIdleEventHandler
-      guid: e72aeb5826110a459f80b58a89d4cd61
-      id: 956084724
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: CAT
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Cat ETAT
-        ObjectType: 12
-        guid: 07804f35b7b5cb4fab2489dbd8f93d6b
-      - ElementName: OnCatIdleEventHandler
-        ObjectType: 3
-        guid: e72aeb5826110a459f80b58a89d4cd61
-      Path: Events\CAT\Cat ETAT\OnCatIdleEventHandler
+      Path: Events\CAT\Cat ETAT\OnCatEtatEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -206,28 +226,8 @@ MonoBehaviour:
     ParentPath: Events\CAT\Cat FOOTSTEP
     guid: 12b08a1cd24b3e408d18e19985f9dd51
     GuidInternal: 
-    m_lastTime: -8584399504082978003
+    m_lastTime: -8584398533263905287
     List:
-    - name: OnCatFootstepRunEventHandler
-      guid: 178d207afd5d7f43832b5ca9d1861369
-      id: 605581031
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: CAT
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Cat FOOTSTEP
-        ObjectType: 12
-        guid: 12b08a1cd24b3e408d18e19985f9dd51
-      - ElementName: OnCatFootstepRunEventHandler
-        ObjectType: 3
-        guid: 178d207afd5d7f43832b5ca9d1861369
-      Path: Events\CAT\Cat FOOTSTEP\OnCatFootstepRunEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: OnCatFootstepWalkEventHandler
       guid: c81553242a1471469b19f9177577ce68
       id: 864079451
@@ -275,7 +275,7 @@ MonoBehaviour:
     ParentPath: Events\DISJONCTEUR\Disjoncteur ETAT
     guid: 863dc343ad496546a6fcaa73a29524d1
     GuidInternal: 
-    m_lastTime: -8584399507414925899
+    m_lastTime: -8584398633841018459
     List:
     - name: OnDisjoncteurBrokenEventHandler
       guid: 8b43539f7068a846a9a4a5153ace7922
@@ -351,7 +351,7 @@ MonoBehaviour:
     ParentPath: Events\LIGHT\Light ETAT
     guid: 10f36973d892a3429d472f984c3cec9a
     GuidInternal: 
-    m_lastTime: -8584399384747015792
+    m_lastTime: -8584398534332062515
     List:
     - name: OnLightIdleEventHandler
       guid: 81b8e7f5a4bb29459e1b2dd831ee317c
@@ -583,7 +583,7 @@ MonoBehaviour:
     ParentPath: Events\PLAYER\PLAYER
     guid: a8e8dd3f8ccc9243916b666b3a219307
     GuidInternal: 
-    m_lastTime: -8584399576689300121
+    m_lastTime: -8584398532582540461
     List:
     - name: OnCapteurCardiaqueEventHandler
       guid: 58f0468628dfd144a4681529d6bee605
@@ -605,29 +605,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: OnPlayerFootstepRunEventHandler
-      guid: dc256d7628514a4eb64826cba75f6ba1
-      id: 1241478734
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PLAYER
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PLAYER
-        ObjectType: 12
-        guid: a8e8dd3f8ccc9243916b666b3a219307
-      - ElementName: OnPlayerFootstepRunEventHandler
-        ObjectType: 3
-        guid: dc256d7628514a4eb64826cba75f6ba1
-      Path: Events\PLAYER\PLAYER\OnPlayerFootstepRunEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnPlayerFootstepWalkEventHandler
+    - name: OnPlayerFootstepEventHandler
       guid: 094737637224f44cb82107e366bc4273
-      id: 3778650096
+      id: 2180450423
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -638,10 +618,10 @@ MonoBehaviour:
       - ElementName: PLAYER
         ObjectType: 12
         guid: a8e8dd3f8ccc9243916b666b3a219307
-      - ElementName: OnPlayerFootstepWalkEventHandler
+      - ElementName: OnPlayerFootstepEventHandler
         ObjectType: 3
         guid: 094737637224f44cb82107e366bc4273
-      Path: Events\PLAYER\PLAYER\OnPlayerFootstepWalkEventHandler
+      Path: Events\PLAYER\PLAYER\OnPlayerFootstepEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -659,11 +639,11 @@ MonoBehaviour:
     ParentPath: Events\POUPEE\PoupeeEtat
     guid: c0299d7d113624409f5d677c2e4ae523
     GuidInternal: 
-    m_lastTime: -8584399403343454854
+    m_lastTime: -8584398548928262881
     List:
-    - name: OnPoupeeActivateEventHandler
-      guid: 2198ce8db260cc4792d6bf8367d6da14
-      id: 2513349939
+    - name: OnPoupeeEtatEventHandler
+      guid: 6f59710695536946b0d54f230e849a0d
+      id: 2534268164
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -674,70 +654,10 @@ MonoBehaviour:
       - ElementName: PoupeeEtat
         ObjectType: 12
         guid: c0299d7d113624409f5d677c2e4ae523
-      - ElementName: OnPoupeeActivateEventHandler
+      - ElementName: OnPoupeeEtatEventHandler
         ObjectType: 3
-        guid: 2198ce8db260cc4792d6bf8367d6da14
-      Path: Events\POUPEE\PoupeeEtat\OnPoupeeActivateEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnPoupeeAttackEventHandler
-      guid: d1dc9178d3446d45ad76605c4e30f1c6
-      id: 3754695004
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: POUPEE
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PoupeeEtat
-        ObjectType: 12
-        guid: c0299d7d113624409f5d677c2e4ae523
-      - ElementName: OnPoupeeAttackEventHandler
-        ObjectType: 3
-        guid: d1dc9178d3446d45ad76605c4e30f1c6
-      Path: Events\POUPEE\PoupeeEtat\OnPoupeeAttackEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnPoupeeKillEventHandler
-      guid: 006db82291390c41ab608ff15a234a8b
-      id: 2175033424
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: POUPEE
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PoupeeEtat
-        ObjectType: 12
-        guid: c0299d7d113624409f5d677c2e4ae523
-      - ElementName: OnPoupeeKillEventHandler
-        ObjectType: 3
-        guid: 006db82291390c41ab608ff15a234a8b
-      Path: Events\POUPEE\PoupeeEtat\OnPoupeeKillEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnPoupeeResearchEventHandler
-      guid: fb5173657a56bc41b2e3243858c831d8
-      id: 558258583
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: POUPEE
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PoupeeEtat
-        ObjectType: 12
-        guid: c0299d7d113624409f5d677c2e4ae523
-      - ElementName: OnPoupeeResearchEventHandler
-        ObjectType: 3
-        guid: fb5173657a56bc41b2e3243858c831d8
-      Path: Events\POUPEE\PoupeeEtat\OnPoupeeResearchEventHandler
+        guid: 6f59710695536946b0d54f230e849a0d
+      Path: Events\POUPEE\PoupeeEtat\OnPoupeeEtatEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -755,11 +675,11 @@ MonoBehaviour:
     ParentPath: Events\POUPEE\PoupeeFootstep
     guid: a3952c4d22f3f545af8ce4e926facb84
     GuidInternal: 
-    m_lastTime: -8584399486122880382
+    m_lastTime: -8584398532582668208
     List:
-    - name: OnPoupeeRunEventHandler
-      guid: 8a4a2dc17387494ea44690ef75c03c95
-      id: 27122335
+    - name: OnPoupeeFootstepEventHandler
+      guid: c8bfa94277c69944ba5a9251c9ef07e6
+      id: 1822394066
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -770,30 +690,10 @@ MonoBehaviour:
       - ElementName: PoupeeFootstep
         ObjectType: 12
         guid: a3952c4d22f3f545af8ce4e926facb84
-      - ElementName: OnPoupeeRunEventHandler
+      - ElementName: OnPoupeeFootstepEventHandler
         ObjectType: 3
-        guid: 8a4a2dc17387494ea44690ef75c03c95
-      Path: Events\POUPEE\PoupeeFootstep\OnPoupeeRunEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnPoupeeWalkEventHandler
-      guid: 8ccfd39f64627b4dbcabc4c66abb97f5
-      id: 1098826291
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: POUPEE
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PoupeeFootstep
-        ObjectType: 12
-        guid: a3952c4d22f3f545af8ce4e926facb84
-      - ElementName: OnPoupeeWalkEventHandler
-        ObjectType: 3
-        guid: 8ccfd39f64627b4dbcabc4c66abb97f5
-      Path: Events\POUPEE\PoupeeFootstep\OnPoupeeWalkEventHandler
+        guid: c8bfa94277c69944ba5a9251c9ef07e6
+      Path: Events\POUPEE\PoupeeFootstep\OnPoupeeFootstepEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -811,11 +711,11 @@ MonoBehaviour:
     ParentPath: Events\RABBIT\Rabbit ETAT
     guid: fab4ef0381e8f5419acfc5c86f1a5f99
     GuidInternal: 
-    m_lastTime: -8584398765945925555
+    m_lastTime: -8584398532037501098
     List:
-    - name: OnRabbitGrignoteEventHandler
-      guid: 2ca665ade923714f921babe8dd603714
-      id: 3022730533
+    - name: OnRabbitEtatEventHandler
+      guid: 732109b70f94464395ebc1e75125102b
+      id: 3039266970
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -826,10 +726,10 @@ MonoBehaviour:
       - ElementName: Rabbit ETAT
         ObjectType: 12
         guid: fab4ef0381e8f5419acfc5c86f1a5f99
-      - ElementName: OnRabbitGrignoteEventHandler
+      - ElementName: OnRabbitEtatEventHandler
         ObjectType: 3
-        guid: 2ca665ade923714f921babe8dd603714
-      Path: Events\RABBIT\Rabbit ETAT\OnRabbitGrignoteEventHandler
+        guid: 732109b70f94464395ebc1e75125102b
+      Path: Events\RABBIT\Rabbit ETAT\OnRabbitEtatEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -847,11 +747,11 @@ MonoBehaviour:
     ParentPath: Events\RABBIT\Rabbit Footstep
     guid: cb9533063bbed4499bcbfbc6732ec662
     GuidInternal: 
-    m_lastTime: -8584399500571264613
+    m_lastTime: -8584398532037602332
     List:
-    - name: OnRabbitFootstepRunEventHandler
-      guid: fa649e9b055166458b5d2115b3b4d248
-      id: 297382543
+    - name: OnRabbitFootstepEventHandler
+      guid: fad18e0488675f439dc80ee457ced11c
+      id: 162255504
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -862,30 +762,10 @@ MonoBehaviour:
       - ElementName: Rabbit Footstep
         ObjectType: 12
         guid: cb9533063bbed4499bcbfbc6732ec662
-      - ElementName: OnRabbitFootstepRunEventHandler
+      - ElementName: OnRabbitFootstepEventHandler
         ObjectType: 3
-        guid: fa649e9b055166458b5d2115b3b4d248
-      Path: Events\RABBIT\Rabbit Footstep\OnRabbitFootstepRunEventHandler
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: OnRabbitFootstepWalkEventHandler
-      guid: 80ada20941a1d64fb01add26cf76ea8a
-      id: 3100775459
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: RABBIT
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Rabbit Footstep
-        ObjectType: 12
-        guid: cb9533063bbed4499bcbfbc6732ec662
-      - ElementName: OnRabbitFootstepWalkEventHandler
-        ObjectType: 3
-        guid: 80ada20941a1d64fb01add26cf76ea8a
-      Path: Events\RABBIT\Rabbit Footstep\OnRabbitFootstepWalkEventHandler
+        guid: fad18e0488675f439dc80ee457ced11c
+      Path: Events\RABBIT\Rabbit Footstep\OnRabbitFootstepEventHandler
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1115,8 +995,390 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6873f19ac227ec42877857735b4f5977
     GuidInternal: 
-    m_lastTime: -8584399584733611720
-    List: []
+    m_lastTime: -8584398534332026028
+    List:
+    - name: CAT_ETAT
+      guid: 365ec6db2d9f2c48872f95057a76157c
+      id: 3792655162
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: CAT_ETAT
+        ObjectType: 11
+        guid: 365ec6db2d9f2c48872f95057a76157c
+      Path: Switches\Default Work Unit\CAT_ETAT
+      values:
+      - name: ATTACK
+        guid: bb0e85b326fed04e86ccd770f36b85f0
+        id: 180661997
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: CAT_ETAT
+          ObjectType: 11
+          guid: 365ec6db2d9f2c48872f95057a76157c
+        - ElementName: ATTACK
+          ObjectType: 10
+          guid: bb0e85b326fed04e86ccd770f36b85f0
+      - name: IDLE
+        guid: f83f1bf114dea545a8a6d1da1a7c3b35
+        id: 1874288895
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: CAT_ETAT
+          ObjectType: 11
+          guid: 365ec6db2d9f2c48872f95057a76157c
+        - ElementName: IDLE
+          ObjectType: 10
+          guid: f83f1bf114dea545a8a6d1da1a7c3b35
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: CAT_FOOTSTEP
+      guid: 627a10f0080d0f43ade374d01bf8f408
+      id: 1812327176
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: CAT_FOOTSTEP
+        ObjectType: 11
+        guid: 627a10f0080d0f43ade374d01bf8f408
+      Path: Switches\Default Work Unit\CAT_FOOTSTEP
+      values:
+      - name: RUN
+        guid: 41e724d403ab1946a825b0720607d43e
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: CAT_FOOTSTEP
+          ObjectType: 11
+          guid: 627a10f0080d0f43ade374d01bf8f408
+        - ElementName: RUN
+          ObjectType: 10
+          guid: 41e724d403ab1946a825b0720607d43e
+      - name: WALK
+        guid: 5e5e6f21dcca8d45be05ea2086f106e3
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: CAT_FOOTSTEP
+          ObjectType: 11
+          guid: 627a10f0080d0f43ade374d01bf8f408
+        - ElementName: WALK
+          ObjectType: 10
+          guid: 5e5e6f21dcca8d45be05ea2086f106e3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PLAYER_FOOTSTEP
+      guid: 8dd2a9563dd75c449f7ae015b7609ca3
+      id: 2453392179
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: PLAYER_FOOTSTEP
+        ObjectType: 11
+        guid: 8dd2a9563dd75c449f7ae015b7609ca3
+      Path: Switches\Default Work Unit\PLAYER_FOOTSTEP
+      values:
+      - name: RUN
+        guid: ee986544622b5d46a7084969d1ad26a3
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: PLAYER_FOOTSTEP
+          ObjectType: 11
+          guid: 8dd2a9563dd75c449f7ae015b7609ca3
+        - ElementName: RUN
+          ObjectType: 10
+          guid: ee986544622b5d46a7084969d1ad26a3
+      - name: WALK
+        guid: 6004dc3d646fdf41bf397980056a6054
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: PLAYER_FOOTSTEP
+          ObjectType: 11
+          guid: 8dd2a9563dd75c449f7ae015b7609ca3
+        - ElementName: WALK
+          ObjectType: 10
+          guid: 6004dc3d646fdf41bf397980056a6054
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: POUPEE_ETAT
+      guid: a43d5e5ab87d0243a4b875c8de6a0152
+      id: 1367822422
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: POUPEE_ETAT
+        ObjectType: 11
+        guid: a43d5e5ab87d0243a4b875c8de6a0152
+      Path: Switches\Default Work Unit\POUPEE_ETAT
+      values:
+      - name: ACTIVATE
+        guid: 31837ff9d8231648981a553a60f0a24d
+        id: 4166407614
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_ETAT
+          ObjectType: 11
+          guid: a43d5e5ab87d0243a4b875c8de6a0152
+        - ElementName: ACTIVATE
+          ObjectType: 10
+          guid: 31837ff9d8231648981a553a60f0a24d
+      - name: ATTACK
+        guid: 0c6802bf8e3a3b46996969a697719e4d
+        id: 180661997
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_ETAT
+          ObjectType: 11
+          guid: a43d5e5ab87d0243a4b875c8de6a0152
+        - ElementName: ATTACK
+          ObjectType: 10
+          guid: 0c6802bf8e3a3b46996969a697719e4d
+      - name: KILL
+        guid: fc5bc3f89dfc1e49be922c4b387b66cb
+        id: 2030840469
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_ETAT
+          ObjectType: 11
+          guid: a43d5e5ab87d0243a4b875c8de6a0152
+        - ElementName: KILL
+          ObjectType: 10
+          guid: fc5bc3f89dfc1e49be922c4b387b66cb
+      - name: RESEARCH
+        guid: c3c9c4ad3779c6419621a7e4e520a953
+        id: 3895945778
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_ETAT
+          ObjectType: 11
+          guid: a43d5e5ab87d0243a4b875c8de6a0152
+        - ElementName: RESEARCH
+          ObjectType: 10
+          guid: c3c9c4ad3779c6419621a7e4e520a953
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: POUPEE_FOOTSTEP
+      guid: 7946de8a0c2b8f4da840dc5cdf15550d
+      id: 3624582108
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: POUPEE_FOOTSTEP
+        ObjectType: 11
+        guid: 7946de8a0c2b8f4da840dc5cdf15550d
+      Path: Switches\Default Work Unit\POUPEE_FOOTSTEP
+      values:
+      - name: RUN
+        guid: d2c765a7ae3013478f137bdb3991ccd4
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_FOOTSTEP
+          ObjectType: 11
+          guid: 7946de8a0c2b8f4da840dc5cdf15550d
+        - ElementName: RUN
+          ObjectType: 10
+          guid: d2c765a7ae3013478f137bdb3991ccd4
+      - name: WALK
+        guid: eff862690c7ed94aa8034dedc9f200bf
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: POUPEE_FOOTSTEP
+          ObjectType: 11
+          guid: 7946de8a0c2b8f4da840dc5cdf15550d
+        - ElementName: WALK
+          ObjectType: 10
+          guid: eff862690c7ed94aa8034dedc9f200bf
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: RABBIT_ETAT
+      guid: f3c4fc0be0b0e849b0b88adb1ca90bfd
+      id: 4253254304
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: RABBIT_ETAT
+        ObjectType: 11
+        guid: f3c4fc0be0b0e849b0b88adb1ca90bfd
+      Path: Switches\Default Work Unit\RABBIT_ETAT
+      values:
+      - name: FUITE
+        guid: b6c2eadf782a5e43aaa39cc003ef0c1b
+        id: 2218847794
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: RABBIT_ETAT
+          ObjectType: 11
+          guid: f3c4fc0be0b0e849b0b88adb1ca90bfd
+        - ElementName: FUITE
+          ObjectType: 10
+          guid: b6c2eadf782a5e43aaa39cc003ef0c1b
+      - name: GRIGNOTE
+        guid: 7de5f49b19047541a461e765db95bfe0
+        id: 3827887798
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: RABBIT_ETAT
+          ObjectType: 11
+          guid: f3c4fc0be0b0e849b0b88adb1ca90bfd
+        - ElementName: GRIGNOTE
+          ObjectType: 10
+          guid: 7de5f49b19047541a461e765db95bfe0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: RABBIT_FOOTSTEP
+      guid: ed5607735cc10e4cb16aedc866743dbb
+      id: 743134326
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6873f19ac227ec42877857735b4f5977
+      - ElementName: RABBIT_FOOTSTEP
+        ObjectType: 11
+        guid: ed5607735cc10e4cb16aedc866743dbb
+      Path: Switches\Default Work Unit\RABBIT_FOOTSTEP
+      values:
+      - name: RUN
+        guid: 80c1dc6f01dc49438a22894bf79ebb47
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: RABBIT_FOOTSTEP
+          ObjectType: 11
+          guid: ed5607735cc10e4cb16aedc866743dbb
+        - ElementName: RUN
+          ObjectType: 10
+          guid: 80c1dc6f01dc49438a22894bf79ebb47
+      - name: WALK
+        guid: ebb89514b5add941a336959c2a2a414b
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6873f19ac227ec42877857735b4f5977
+        - ElementName: RABBIT_FOOTSTEP
+          ObjectType: 11
+          guid: ed5607735cc10e4cb16aedc866743dbb
+        - ElementName: WALK
+          ObjectType: 10
+          guid: ebb89514b5add941a336959c2a2a414b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -1146,7 +1408,7 @@ MonoBehaviour:
         guid: 495175a5061ad64daf0c4407794aa848
       Path: Triggers\Default Work Unit\GAME_OVER
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000021000000230000006d0000006f000000700000007100000072000000a0000000b1000000d8000000df000000e0000000e2000000e4000000280100002901000083940000104b0a0012e11400
+  ExpandedWaapiItemIds: 06000000160000001700000021000000230000006d0000006f000000700000007100000072000000a0000000b1000000d8000000df000000e0000000e2000000e4000000280100002901000083940000104b0a0012e11400
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
