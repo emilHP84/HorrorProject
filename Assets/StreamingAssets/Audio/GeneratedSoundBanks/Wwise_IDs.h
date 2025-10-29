@@ -13,12 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID ONAMBIANCEEVENTHANDLER = 198661522U;
+        static const AkUniqueID ONAMBIANCESALLEENTREPOTEVENTHANDLER = 176453890U;
+        static const AkUniqueID ONAMBIANCESALLEGARDIENEVENTHANDLER = 948802671U;
+        static const AkUniqueID ONAMBIANCESALLEPRINCIPALEEVENTHANDLER = 2964699108U;
         static const AkUniqueID ONCAPTEURCARDIAQUEEVENTHANDLER = 3968532517U;
-        static const AkUniqueID ONCATFOOTSTEPRUNEVENTHANDLER = 605581031U;
+        static const AkUniqueID ONCATETATEVENTHANDLER = 872696306U;
         static const AkUniqueID ONCATFOOTSTEPWALKEVENTHANDLER = 864079451U;
-        static const AkUniqueID ONCATIATTACKEVENTHANDLER = 3478201579U;
-        static const AkUniqueID ONCATIDLEEVENTHANDLER = 956084724U;
         static const AkUniqueID ONDISJONCTEURBROKENEVENTHANDLER = 3618294761U;
         static const AkUniqueID ONDISJONCTEURIDLEEVENTHANDLER = 2654241884U;
         static const AkUniqueID ONDISJONCTEURREPAIREVENTHANDLER = 2440927333U;
@@ -32,17 +32,11 @@ namespace AK
         static const AkUniqueID ONMUSICMENUEVENTHANDLER = 2667605526U;
         static const AkUniqueID ONMUSICONEMINLEFTEVENTHANDLER = 4278809340U;
         static const AkUniqueID ONMUSICVICTORYEVENTHANDLER = 3218507479U;
-        static const AkUniqueID ONPLAYERFOOTSTEPRUNEVENTHANDLER = 1241478734U;
-        static const AkUniqueID ONPLAYERFOOTSTEPWALKEVENTHANDLER = 3778650096U;
-        static const AkUniqueID ONPOUPEEACTIVATEEVENTHANDLER = 2513349939U;
-        static const AkUniqueID ONPOUPEEATTACKEVENTHANDLER = 3754695004U;
-        static const AkUniqueID ONPOUPEEKILLEVENTHANDLER = 2175033424U;
-        static const AkUniqueID ONPOUPEERESEARCHEVENTHANDLER = 558258583U;
-        static const AkUniqueID ONPOUPEERUNEVENTHANDLER = 27122335U;
-        static const AkUniqueID ONPOUPEEWALKEVENTHANDLER = 1098826291U;
-        static const AkUniqueID ONRABBITFOOTSTEPRUNEVENTHANDLER = 297382543U;
-        static const AkUniqueID ONRABBITFOOTSTEPWALKEVENTHANDLER = 3100775459U;
-        static const AkUniqueID ONRABBITGRIGNOTEEVENTHANDLER = 3022730533U;
+        static const AkUniqueID ONPLAYERFOOTSTEPEVENTHANDLER = 2180450423U;
+        static const AkUniqueID ONPOUPEEETATEVENTHANDLER = 2534268164U;
+        static const AkUniqueID ONPOUPEEFOOTSTEPEVENTHANDLER = 1822394066U;
+        static const AkUniqueID ONRABBITETATEVENTHANDLER = 3039266970U;
+        static const AkUniqueID ONRABBITFOOTSTEPEVENTHANDLER = 162255504U;
     } // namespace EVENTS
 
     namespace STATES
@@ -64,6 +58,89 @@ namespace AK
         } // namespace MUSIC
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace CAT_ETAT
+        {
+            static const AkUniqueID GROUP = 3792655162U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ATTACK = 180661997U;
+                static const AkUniqueID IDLE = 1874288895U;
+            } // namespace SWITCH
+        } // namespace CAT_ETAT
+
+        namespace CAT_FOOTSTEP
+        {
+            static const AkUniqueID GROUP = 1812327176U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID WALK = 2108779966U;
+            } // namespace SWITCH
+        } // namespace CAT_FOOTSTEP
+
+        namespace PLAYER_FOOTSTEP
+        {
+            static const AkUniqueID GROUP = 2453392179U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID WALK = 2108779966U;
+            } // namespace SWITCH
+        } // namespace PLAYER_FOOTSTEP
+
+        namespace POUPEE_ETAT
+        {
+            static const AkUniqueID GROUP = 1367822422U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ACTIVATE = 4166407614U;
+                static const AkUniqueID ATTACK = 180661997U;
+                static const AkUniqueID KILL = 2030840469U;
+                static const AkUniqueID RESEARCH = 3895945778U;
+            } // namespace SWITCH
+        } // namespace POUPEE_ETAT
+
+        namespace POUPEE_FOOTSTEP
+        {
+            static const AkUniqueID GROUP = 3624582108U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID WALK = 2108779966U;
+            } // namespace SWITCH
+        } // namespace POUPEE_FOOTSTEP
+
+        namespace RABBIT_ETAT
+        {
+            static const AkUniqueID GROUP = 4253254304U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID FUITE = 2218847794U;
+                static const AkUniqueID GRIGNOTE = 3827887798U;
+            } // namespace SWITCH
+        } // namespace RABBIT_ETAT
+
+        namespace RABBIT_FOOTSTEP
+        {
+            static const AkUniqueID GROUP = 743134326U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RUN = 712161704U;
+                static const AkUniqueID WALK = 2108779966U;
+            } // namespace SWITCH
+        } // namespace RABBIT_FOOTSTEP
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
