@@ -43,7 +43,6 @@ namespace AK
         static const AkUniqueID ONRABBITFOOTSTEPRUNEVENTHANDLER = 297382543U;
         static const AkUniqueID ONRABBITFOOTSTEPWALKEVENTHANDLER = 3100775459U;
         static const AkUniqueID ONRABBITGRIGNOTEEVENTHANDLER = 3022730533U;
-        static const AkUniqueID ONRABBITIDLEEVENTHANDLER = 1447550780U;
     } // namespace EVENTS
 
     namespace STATES
