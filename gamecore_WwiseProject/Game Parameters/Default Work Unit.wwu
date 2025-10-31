@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6DB3E6F8-DF77-4091-9420-A59BF812A513}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{6DB3E6F8-DF77-4091-9420-A59BF812A513}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="BPM" ID="{0333EE38-600F-4C23-8FC9-EF965318CAE9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="40"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

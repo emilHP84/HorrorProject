@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{603C7184-F603-45C7-86B4-1F6EA6C3F5E9}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{603C7184-F603-45C7-86B4-1F6EA6C3F5E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MUSIC" ID="{7C3A6F0F-2C7C-41A9-A91E-D39D8BA746C9}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BPM" ID="{0333EE38-600F-4C23-8FC9-EF965318CAE9}"/>
+							<Value>105.132993172341</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="MENU" ID="{B480A017-02EC-4BA3-8AE3-CD21457735E4}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="ACTIVATE" ID="{F97F8331-23D8-4816-981A-553A60F0A24D}"/>
+						<CurrentSwitchRef Name="RUN" ID="{D424E741-AB03-4619-A825-B0720607D43E}"/>
+						<CurrentSwitchRef Name="RUN" ID="{446598EE-2B62-465D-A708-4969D1AD26A3}"/>
+						<CurrentSwitchRef Name="ATTACK" ID="{B3850EBB-FE26-4ED0-86CC-D770F36B85F0}"/>
+						<CurrentSwitchRef Name="FUITE" ID="{DFEAC2B6-2A78-435E-AAA3-9CC003EF0C1B}"/>
+						<CurrentSwitchRef Name="RUN" ID="{6FDCC180-DC01-4349-8A22-894BF79EBB47}"/>
+						<CurrentSwitchRef Name="RUN" ID="{A765C7D2-30AE-4713-8F13-7BDB3991CCD4}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="PLAYER" ID="{E3F54235-2E14-46C4-AA09-84F4AAB1911C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="OnMusicMenuEventHandler" ID="{32B63852-0097-4C40-9856-37C3D057CBC8}" WorkUnitID="{C7F182C3-56FE-4522-B422-3AE98000A269}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BPM" ID="{0333EE38-600F-4C23-8FC9-EF965318CAE9}"/>
+							<Value>120.312047294119</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="MENU" ID="{B480A017-02EC-4BA3-8AE3-CD21457735E4}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

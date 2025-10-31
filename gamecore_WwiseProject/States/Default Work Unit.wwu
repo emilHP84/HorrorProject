@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9974B2CB-E922-4690-99A6-E46E058C3173}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{9974B2CB-E922-4690-99A6-E46E058C3173}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MUSIC" ID="{CD18D3AC-0C09-4004-844D-7FD127A23FBD}" ShortID="20013849">
+					<ChildrenList>
+						<StateGroup Name="MUSIC" ID="{D6A78C50-96A6-4F58-9E79-C347D5F10977}">
+							<ChildrenList>
+								<State Name="None" ID="{CCE5D69E-DC9F-481D-914D-F8D09E42666E}"/>
+								<State Name="MENU" ID="{B480A017-02EC-4BA3-8AE3-CD21457735E4}"/>
+								<State Name="GAMEPLAY_CHILL" ID="{63A25E71-30D6-41D8-A5E7-1AF51EFCAA87}"/>
+								<State Name="GAMEPLAY_ATTACK" ID="{B21D9493-7F21-4EC1-9C05-9FA5B84C0F71}"/>
+								<State Name="GAMEPLAY_1MIN_LEFT" ID="{BE4076E2-D1DC-403A-A0DF-98BE5A1FD351}"/>
+								<State Name="GAME_OVER" ID="{3C7B659E-BAE7-4071-A649-E54BC34011CE}"/>
+								<State Name="VICTORY" ID="{1A117249-FC6C-4A8E-A100-1F9BE42B7D99}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
