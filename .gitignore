@@ -97,3 +97,18 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Wwise generated files
+/[Aa]ssets/[Ww]wise/GeneratedSoundBanks/
+/[Aa]ssets/[Ww]wise/ProjectCache/
+/[Aa]ssets/[Ww]wise/.cache/
+/[Aa]ssets/[Ww]wise/.vs/
+/[Aa]ssets/[Ww]wise/Temp/
+*.wproj.user
+
+/gamecore_WwiseProject/GeneratedSoundBanks/
+/gamecore_WwiseProject/ProjectCache/
+/gamecore_WwiseProject/.cache/
+/gamecore_WwiseProject/.vs/
+/gamecore_WwiseProject/Temp/
+*.wproj.user
