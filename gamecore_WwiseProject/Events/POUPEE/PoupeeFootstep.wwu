@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D2C95A3-F322-45F5-AF8C-E4E926FACB84}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="PoupeeFootstep" ID="{4D2C95A3-F322-45F5-AF8C-E4E926FACB84}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OnPoupeeFootstepEventHandler" ID="{42A9BFC8-C677-4499-BA5A-9251C9EF07E6}">
+					<ChildrenList>
+						<Action Name="" ID="{8C6D3B7B-4F7B-4773-8781-F5EF0783A3A2}" ShortID="441664959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="POUPEE_FOOTSTEP" ID="{D4DFBDDC-7A71-44B2-89F3-490FF390AADC}" WorkUnitID="{FAACF14A-AA85-4E7C-ACC5-51A53A22A68E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

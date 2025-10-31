@@ -114,7 +114,7 @@ MonoBehaviour:
     ParentPath: Events\AMBIANCE\AMBIANCE
     guid: 188493766fed4345a00b7cb43ee03418
     GuidInternal: 
-    m_lastTime: -8584398534332223657
+    m_lastTime: -8584397883716330284
     List:
     - name: OnAmbianceSalleEntrepotEventHandler
       guid: 6889fd2fbd836d48891baac270f3bb9d
@@ -639,7 +639,7 @@ MonoBehaviour:
     ParentPath: Events\POUPEE\PoupeeEtat
     guid: c0299d7d113624409f5d677c2e4ae523
     GuidInternal: 
-    m_lastTime: -8584397894653517857
+    m_lastTime: -8584397832599306828
     List:
     - name: OnPoupeeEtatEventHandler
       guid: 6f59710695536946b0d54f230e849a0d
@@ -1408,7 +1408,7 @@ MonoBehaviour:
         guid: 495175a5061ad64daf0c4407794aa848
       Path: Triggers\Default Work Unit\GAME_OVER
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000160000001700000019000000230000006d0000006f000000700000007100000072000000a0000000b1000000d8000000df000000e0000000e2000000e4000000280100002901000083940000104b0a0012e11400
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9AF17368-27C2-42EC-8778-57735B4F5977}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{9AF17368-27C2-42EC-8778-57735B4F5977}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="POUPEE_ETAT" ID="{5A5E3DA4-7DB8-4302-A4B8-75C8DE6A0152}">
+					<ChildrenList>
+						<Switch Name="ATTACK" ID="{BF02680C-3A8E-463B-9969-69A697719E4D}"/>
+						<Switch Name="ACTIVATE" ID="{F97F8331-23D8-4816-981A-553A60F0A24D}"/>
+						<Switch Name="KILL" ID="{F8C35BFC-FC9D-491E-BE92-2C4B387B66CB}"/>
+						<Switch Name="RESEARCH" ID="{ADC4C9C3-7937-41C6-9621-A7E4E520A953}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="POUPEE_FOOTSTEP" ID="{8ADE4679-2B0C-4D8F-A840-DC5CDF15550D}">
+					<ChildrenList>
+						<Switch Name="RUN" ID="{A765C7D2-30AE-4713-8F13-7BDB3991CCD4}"/>
+						<Switch Name="WALK" ID="{6962F8EF-7E0C-4AD9-A803-4DEDC9F200BF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="RABBIT_ETAT" ID="{0BFCC4F3-B0E0-49E8-B0B8-8ADB1CA90BFD}">
+					<ChildrenList>
+						<Switch Name="FUITE" ID="{DFEAC2B6-2A78-435E-AAA3-9CC003EF0C1B}"/>
+						<Switch Name="GRIGNOTE" ID="{9BF4E57D-0419-4175-A461-E765DB95BFE0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="RABBIT_FOOTSTEP" ID="{730756ED-C15C-4C0E-B16A-EDC866743DBB}">
+					<ChildrenList>
+						<Switch Name="RUN" ID="{6FDCC180-DC01-4349-8A22-894BF79EBB47}"/>
+						<Switch Name="WALK" ID="{1495B8EB-ADB5-41D9-A336-959C2A2A414B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PLAYER_FOOTSTEP" ID="{56A9D28D-D73D-445C-9F7A-E015B7609CA3}">
+					<ChildrenList>
+						<Switch Name="RUN" ID="{446598EE-2B62-465D-A708-4969D1AD26A3}"/>
+						<Switch Name="WALK" ID="{3DDC0460-6F64-41DF-BF39-7980056A6054}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="CAT_ETAT" ID="{DBC65E36-9F2D-482C-872F-95057A76157C}">
+					<ChildrenList>
+						<Switch Name="IDLE" ID="{F11B3FF8-DE14-45A5-A8A6-D1DA1A7C3B35}"/>
+						<Switch Name="ATTACK" ID="{B3850EBB-FE26-4ED0-86CC-D770F36B85F0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="CAT_FOOTSTEP" ID="{F0107A62-0D08-430F-ADE3-74D01BF8F408}">
+					<ChildrenList>
+						<Switch Name="RUN" ID="{D424E741-AB03-4619-A825-B0720607D43E}"/>
+						<Switch Name="WALK" ID="{216F5E5E-CADC-458D-BE05-EA2086F106E3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

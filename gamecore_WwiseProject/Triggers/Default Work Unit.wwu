@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE1B2797-C2C2-41C2-9E52-BF84B62AF037}" SchemaVersion="110">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{CE1B2797-C2C2-41C2-9E52-BF84B62AF037}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="GAME_OVER" ID="{A5755149-1A06-4DD6-AF0C-4407794AA848}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

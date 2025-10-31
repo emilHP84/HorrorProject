@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7F182C3-56FE-4522-B422-3AE98000A269}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="New Work Unit" ID="{C7F182C3-56FE-4522-B422-3AE98000A269}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OnMusicMenuEventHandler" ID="{32B63852-0097-4C40-9856-37C3D057CBC8}">
+					<ChildrenList>
+						<Action Name="" ID="{13C6E588-3D59-4171-85FC-935A2DA2C5E9}" ShortID="206360565">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU" ID="{B480A017-02EC-4BA3-8AE3-CD21457735E4}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicAttackEventHandler" ID="{27278AAB-44F9-428F-8A65-D350FE3804D9}">
+					<ChildrenList>
+						<Action Name="" ID="{5F26C62D-F032-4069-A68E-90C48EA353A1}" ShortID="215092590">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAMEPLAY_ATTACK" ID="{B21D9493-7F21-4EC1-9C05-9FA5B84C0F71}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicVictoryEventHandler" ID="{4645B89D-0BD8-4233-8548-AC6CAAC70385}">
+					<ChildrenList>
+						<Action Name="" ID="{68BD1666-C405-48F7-A18D-3437F6783E33}" ShortID="820214312">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VICTORY" ID="{1A117249-FC6C-4A8E-A100-1F9BE42B7D99}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicGameOverEventHandler" ID="{85E12280-BF33-43EC-A580-37CF8363E61E}">
+					<ChildrenList>
+						<Action Name="" ID="{C8B588A9-3D42-4430-ABAE-A65421E1B503}" ShortID="730748937">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAME_OVER" ID="{3C7B659E-BAE7-4071-A649-E54BC34011CE}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicLaunchEventHandler" ID="{291DFC8C-EA12-4D77-ACD3-B3DE5CC0A4CE}">
+					<ChildrenList>
+						<Action Name="" ID="{84ADB8DA-2894-40E3-A043-BB76BB67D59D}" ShortID="616566814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC" ID="{E4F869ED-487A-4767-84CB-636E968A23C1}" WorkUnitID="{CC3C4F15-621D-4384-A3A6-0D23CD30CF76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicChillEventHandler" ID="{A0AD4B29-B3E4-404B-A087-8DD2300845EC}">
+					<ChildrenList>
+						<Action Name="" ID="{4BD9219C-C43A-45A1-95A9-606097003A4A}" ShortID="128503311">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAMEPLAY_CHILL" ID="{63A25E71-30D6-41D8-A5E7-1AF51EFCAA87}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnMusicOneMinLeftEventHandler" ID="{7949C8EA-DAD3-494C-8478-AFEA27EBCDD4}">
+					<ChildrenList>
+						<Action Name="" ID="{3CB829C4-D075-4EF0-97CF-2FDD208BDE95}" ShortID="421471503">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAMEPLAY_1MIN_LEFT" ID="{BE4076E2-D1DC-403A-A0DF-98BE5A1FD351}" WorkUnitID="{9974B2CB-E922-4690-99A6-E46E058C3173}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

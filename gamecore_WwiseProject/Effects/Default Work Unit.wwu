@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AB6F049-E6B2-4F5E-B764-B7F159C46938}" SchemaVersion="110">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{0AB6F049-E6B2-4F5E-B764-B7F159C46938}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="BPM" ID="{C3C69D60-EC13-4A8D-BAE7-BA6C940DE776}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{1185FBAF-1461-4819-89EC-CFA3211F4E48}" ShortID="490762388">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="BPM" ID="{0333EE38-600F-4C23-8FC9-EF965318CAE9}" WorkUnitID="{6DB3E6F8-DF77-4091-9420-A59BF812A513}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{BC0734F6-A772-4508-8BC2-5ECC7620F227}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>40</XPos>
+																<YPos>150</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>180</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="110">
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1761300119" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1761753452" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\States\Default Work Unit.wwu" DateLow="1761297580" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1761836862" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1761816206" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Queries\Factory Queries.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1761300757" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\gamecore_WwiseProject.wproj" DateLow="1761655727" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\gamecore_WwiseProject.JORDAN.wsettings" DateLow="1761902699" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1761648412" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\RABBIT\Rabbit Footstep.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\RABBIT\Rabbit ETAT.wwu" DateLow="1761817420" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\POUPEE\PoupeeFootstep.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\POUPEE\PoupeeEtat.wwu" DateLow="1761823625" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\PLAYER\PLAYER.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\MUSIC\New Work Unit.wwu" DateLow="1761645904" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\LIGHT\Light ETAT.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\DISJONCTEUR\Disjoncteur ETAT.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\Default Work Unit.wwu" DateLow="1761645426" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\CAT\Cat FOOTSTEP.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\CAT\Cat ETAT.wwu" DateLow="1761817420" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Events\AMBIANCE\AMBIANCE.wwu" DateLow="1761818513" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Effects\Factory Effects.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1761744263" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\TemplateKarlWwise\TemplateKarl\gamecore\gamecore_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1761815760" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1761300119" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1761753452" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\States\Default Work Unit.wwu" DateLow="1761297580" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1761836862" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1761816206" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Queries\Factory Queries.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1761300757" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\gamecore_WwiseProject.wproj" DateLow="1761655727" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\gamecore_WwiseProject.JORDAN.wsettings" DateLow="1761904430" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1761648412" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\RABBIT\Rabbit Footstep.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\RABBIT\Rabbit ETAT.wwu" DateLow="1761817420" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\POUPEE\PoupeeFootstep.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\POUPEE\PoupeeEtat.wwu" DateLow="1761823625" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\PLAYER\PLAYER.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\MUSIC\New Work Unit.wwu" DateLow="1761645904" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\LIGHT\Light ETAT.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\DISJONCTEUR\Disjoncteur ETAT.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\Default Work Unit.wwu" DateLow="1761645426" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\CAT\Cat FOOTSTEP.wwu" DateLow="1761754538" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\CAT\Cat ETAT.wwu" DateLow="1761817420" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Events\AMBIANCE\AMBIANCE.wwu" DateLow="1761818513" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Effects\Factory Effects.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1761744263" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1760955822" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\JORDAN\HorrorProject\gamecore_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1761815760" DateHigh="0"/>
+</ValidationCache>

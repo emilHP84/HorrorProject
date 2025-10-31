@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C8AB012-4BD2-403E-8D18-E19985F9DD51}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Cat FOOTSTEP" ID="{1C8AB012-4BD2-403E-8D18-E19985F9DD51}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OnCatFootstepWalkEventHandler" ID="{245315C8-142A-4671-9B19-F9177577CE68}">
+					<ChildrenList>
+						<Action Name="" ID="{FB59010E-85D3-406C-B25A-E76326D242BA}" ShortID="487662233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CAT_FOOTSTEP" ID="{46C9A1F5-202B-4C90-9076-9CE13E6D12F5}" WorkUnitID="{FAACF14A-AA85-4E7C-ACC5-51A53A22A68E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
