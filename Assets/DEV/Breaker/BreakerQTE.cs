@@ -1,18 +1,14 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-
 
 public class BreakerQTE : MonoBehaviour
 {
-    [SerializeField] private Dictionary<int, float> points = new Dictionary<int, float>();
+    [SerializeField] private List<QTEValue> points = new List<QTEValue>();
     [SerializeField] private float m_chronoSpeed;
     private float m_time;
 
-    private bool m_qteResult = false;
-
-
     [Header("Test")]
-    public List<GameObject> gameObjectsList = new List<GameObject>();
     public GameObject m_go;
     public Transform m_goParent;
 
@@ -22,64 +18,71 @@ public class BreakerQTE : MonoBehaviour
     private void Update()
     {
         m_time += m_chronoSpeed * Time.deltaTime;
-        if(m_time >= 1) m_time = 0;
-
-        Debug.Log(gameObject.name +" "+ m_qteResult);
-        Debug.Log(gameObject.name +" "+ points.Count);
-
-
-
-        //textChrono.GetComponent<TextMeshProUGUI>().text = $"{m_time:F1}";
+        if (m_time >= 1) m_time = 0;
+        textChrono.GetComponent<TextMeshProUGUI>().text = $"{m_time:F1}";
     }
-    
-    public void LaunchQTE(float numberOfReparation, float percentOfReparation)
+
+    public void LaunchQTE(float numberOfReparation)
     {
         for (int i = 0; i < numberOfReparation; i++)
         {
-            points.Add(i, Random.value);
-            m_qteResult = false;
+            QTEValue v = new QTEValue();
+            v.IsValidated = false;
+            v.Value = Random.Range(0f, 1f);
+            v.Visual = Instantiate(m_go, m_goParent);
 
+            points.Add(v);
 
-
-            GameObject go = Instantiate(m_go,m_goParent);
-            gameObjectsList.Add(go);
-            //go.GetComponent<TextMeshProUGUI>().text = $"{points[i]:F1}";
-
-
-
-            Debug.Log(points.Values);
+            v.Visual.GetComponent<TextMeshProUGUI>().text = $"{v.Value:F1}";
         }
     }
 
-    public void PerformQTE()
+
+    public void PerformQTE(float numberOfReparation)
     {
-        for (int i = 0; i < points.Count; i++)
+        QTEValue qteValid = null;
+
+        foreach (QTEValue qte in points)
         {
-            if (m_time <= points[i] + 0.1f && m_time >= points[i] - 0.1f)
+            if (!qte.IsValidated)
             {
-                points.Remove(i);
-                gameObjectsList.Remove(gameObjectsList[i]);
-            }
-            else
-            {
-                m_qteResult = false;
-                Debug.Log("G RATE LE QTE PTN");
+                if (m_time <= qte.Value + 0.1f && m_time >= qte.Value - 0.1f)
+                {
+
+                    qteValid = qte;
+                }
+                else
+                {
+                    QTELoose();
+                }
             }
         }
-        CheckQTE();
-    }
 
-    private void CheckQTE()
-    {
-        if (points.Count == 0)
+        qteValid.Visual.GetComponent<TextMeshProUGUI>().color = Color.green;
+
+        // remove from list qte
+        // check if list = null
+
+        points.Remove(qteValid);
+
+        if (points.Contains(null))
         {
-            m_qteResult = true;
+            QTESuccess();
         }
     }
 
-    public bool QTEResult()
+    public bool QTESuccess()
     {
+        points.Clear();
+        return true;
 
-        return m_qteResult;
     }
+
+    public bool QTELoose()
+    {
+        points.Clear();
+        return true;
+    }
+
+
 }

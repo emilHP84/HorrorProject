@@ -21,11 +21,6 @@ public class Breaker : MonoBehaviour, IInteractable
     [Header("à L'interaction")]
     [SerializeField] private GameObject m_interactPanel;
 
-    private void OnEnable()
-    {
-
-    }
-
     private void Awake()
     {
         m_interactPanel.SetActive(false);
@@ -33,29 +28,9 @@ public class Breaker : MonoBehaviour, IInteractable
         m_reparationPanel.SetActive(false);
     }
 
-    private void Start()
+    public void Interact(KeyCode keycode)
     {
-
-    }
-
-    private void Update()
-    {
-        if(m_qte.QTEResult() == true && m_onReparation)
-        {
-            m_durability += m_percentOfReparation;
-            Debug.Log("G REUSSI");
-
-            m_reparationPanel.SetActive(false);
-            m_onReparation = false;
-        }
-
-        if (m_durability >= 50) m_lightSpot.SetActive(true);
-        else m_lightSpot.SetActive(false);
-    }
-
-    public void Interact(KeyCode i)
-    {
-        if(i == KeyCode.E)
+        if (keycode == KeyCode.E)
         {
             m_reparationPanel.SetActive(true);
             m_onReparation = true;
@@ -64,26 +39,38 @@ public class Breaker : MonoBehaviour, IInteractable
             m_numberOfReparation = Random.Range(1, 5);
             m_percentOfReparation = Random.Range(50, 100);
 
-            m_qte.LaunchQTE(m_numberOfReparation, m_percentOfReparation);
+            m_qte.LaunchQTE(m_numberOfReparation);
         }
 
-        if(i == KeyCode.Space) 
-        { 
-            m_qte.PerformQTE();
-        }
+        if (keycode == KeyCode.Space)
+        {
+            m_qte.PerformQTE(m_numberOfReparation);
 
+            if (m_qte.QTESuccess() == true && m_onReparation)
+            {
+                m_durability += m_percentOfReparation;
+
+                m_reparationPanel.SetActive(false);
+                m_onReparation = false;
+                Debug.Log("G REUSSI");
+            }
+            else if (m_qte.QTELoose() == false && m_onReparation)
+            {
+                m_reparationPanel.SetActive(false);
+                m_onReparation = false;
+                Debug.Log("G RATE LE QTE PTN");
+            }
+
+            if (m_durability >= 50) m_lightSpot.SetActive(true);
+            else m_lightSpot.SetActive(false);
+        }
     }
 
-    public void ShowInteractOnContat(bool value)
+    public void ShowInteractOnContact(bool value)
     {
         if (!m_onReparation)
         {
             m_interactPanel.SetActive(value);
         }
-    }
-
-    private void OnDisable()
-    {
-        
     }
 }

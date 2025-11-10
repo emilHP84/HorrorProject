@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, 3) && hit.transform.GetComponent<Breaker>())
         {
             currentHit = hit;
-            currentHit.transform.GetComponent<IInteractable>().ShowInteractOnContat(true);
+            currentHit.transform.GetComponent<IInteractable>().ShowInteractOnContact(true);
 
             if (Input.GetKey(KeyCode.E) && !m_hasInteract)
             {
@@ -83,12 +83,13 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                
                 hit.transform.GetComponent<IInteractable>().Interact(KeyCode.Space);
             }
         }
         else
         {
-            if (currentHit.transform != null) currentHit.transform.GetComponent<IInteractable>().ShowInteractOnContat(false);
+            if (currentHit.transform != null) currentHit.transform.GetComponent<IInteractable>().ShowInteractOnContact(false);
             m_hasInteract = false;
         }
 
