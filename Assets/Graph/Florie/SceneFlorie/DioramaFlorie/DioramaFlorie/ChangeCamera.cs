@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChangeCamera : MonoBehaviour
 {
-    public Camera[] cameras;     // Liste des caméras
+    [SerializeField] private Camera[] cameras;     // Liste des caméras
     public int currentIndex = 0; // Caméra active
 
     void Start()
@@ -25,6 +25,24 @@ public class ChangeCamera : MonoBehaviour
             currentIndex = (currentIndex + 1) % cameras.Length;
 
             // Activer la nouvelle caméra
+            cameras[currentIndex].gameObject.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Debug.Log("Camera preview");
+
+            cameras[currentIndex].gameObject.SetActive(false);
+
+            if (currentIndex == 0) 
+            {
+                currentIndex = cameras.Length - 1;
+            }
+            else
+            {
+                currentIndex--;
+            }
+
             cameras[currentIndex].gameObject.SetActive(true);
         }
     }
